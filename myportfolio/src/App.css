@@ -36,24 +36,21 @@ main {
 
 .cardPersonal {
   color: white;
-  padding: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
   width: 100%;
   display: flex;
-  gap: 20px;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .myphoto {
   display: flex;
   width: 100%;
-  height: 42vh;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  gap: 20px;
-  justify-content: center;
 }
 
 .photo {
@@ -64,6 +61,7 @@ main {
   align-items: center;
   justify-content: center;
   display: flex;
+  border: 10px solid #0b2b26;
 }
 
 .paragraphpersonal {
@@ -82,7 +80,7 @@ main {
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .buttonCard {

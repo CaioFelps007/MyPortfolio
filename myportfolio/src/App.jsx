@@ -12,10 +12,12 @@ import { FaBook } from "react-icons/fa";
 import { GiStairsGoal } from "react-icons/gi";
 import { MdMarkEmailRead } from "react-icons/md";
 
+import PerfilUm from "./assets/images/imagemport1.jpg";
+
 const Views = () => {
   return (
     <>
-      <div className="cardPersonal">photo </div>
+      <div className="cardPersonal"></div>
     </>
   );
 };
@@ -48,20 +50,7 @@ function App() {
       <Header />
       <main>
         <section className="title">
-          <h1>Bem vindo ao meu portfolio</h1>
-          <h4>Aqui eu guardo minhas pérolas(projetos)</h4>
-        </section>
-        <section className="myphoto">
-          <div className="photo">photo</div>
-          <div className="paragraphpersonal">
-            <p>
-              Um jovem de 17 anos com muitos sonhos e objetivos em mente,
-              buscando ampliar seu conhecimento e compartilhar os mesmos. Me
-              chamo Caio Felpe Vieira Ferreira e esse é meu portfolio de
-              projetos pessoal, você verá aqui, meus projetos, meus objetivos, e
-              meu desenvolvimento na carreira!
-            </p>
-          </div>
+          <h2>Bem vindo ao meu portfolio</h2>
         </section>
 
         <div className="carrossel">
@@ -78,7 +67,7 @@ function App() {
           >
             {ViewsCarrossel.map((item) => (
               <SwiperSlide key={item.id}>
-                <div>{item.view}</div>
+                <div className="myphoto">{item.view}</div>
               </SwiperSlide>
             ))}
           </Swiper>
